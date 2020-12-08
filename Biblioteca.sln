@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Biblioteca", "Biblioteca", "{C1A91FF8-E2B7-4843-BDEA-4187A4C1F188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca\Biblioteca.csproj", "{385822C0-C302-4520-9606-2767B28E6A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca.Activities", "Biblioteca\Biblioteca.Activities\Biblioteca.Activities.csproj", "{4B2E6E12-D690-4592-A7C2-B5867B1EA976}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca.Activities.Design", "Biblioteca\Biblioteca.Activities.Design\Biblioteca.Activities.Design.csproj", "{A35BB7B6-4A31-4C27-AF38-130E2BFCB6FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{ECE114D6-0649-4A2F-9322-C1339638C30F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4b2e6e12-d690-4592-a7c2-b5867b1ea976}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{a35bb7b6-4a31-4c27-af38-130e2bfcb6fb}*SharedItemsImports = 5
+		Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{385822C0-C302-4520-9606-2767B28E6A0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385822C0-C302-4520-9606-2767B28E6A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385822C0-C302-4520-9606-2767B28E6A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385822C0-C302-4520-9606-2767B28E6A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B2E6E12-D690-4592-A7C2-B5867B1EA976}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B2E6E12-D690-4592-A7C2-B5867B1EA976}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B2E6E12-D690-4592-A7C2-B5867B1EA976}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B2E6E12-D690-4592-A7C2-B5867B1EA976}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35BB7B6-4A31-4C27-AF38-130E2BFCB6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35BB7B6-4A31-4C27-AF38-130E2BFCB6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35BB7B6-4A31-4C27-AF38-130E2BFCB6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35BB7B6-4A31-4C27-AF38-130E2BFCB6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{385822C0-C302-4520-9606-2767B28E6A0F} = {C1A91FF8-E2B7-4843-BDEA-4187A4C1F188}
+		{4B2E6E12-D690-4592-A7C2-B5867B1EA976} = {C1A91FF8-E2B7-4843-BDEA-4187A4C1F188}
+		{A35BB7B6-4A31-4C27-AF38-130E2BFCB6FB} = {C1A91FF8-E2B7-4843-BDEA-4187A4C1F188}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {ECE114D6-0649-4A2F-9322-C1339638C30F}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {ECE114D6-0649-4A2F-9322-C1339638C30F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A0285BE-CAB4-464A-9ECA-D17BEAD232B4}
+	EndGlobalSection
+EndGlobal

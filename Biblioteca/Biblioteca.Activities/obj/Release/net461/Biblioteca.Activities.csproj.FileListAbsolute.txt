@@ -1,0 +1,15 @@
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\bin\Release\net461\Biblioteca.Activities.dll
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\bin\Release\net461\Biblioteca.Activities.pdb
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\bin\Release\net461\Biblioteca.Activities.xml
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\bin\Release\net461\Biblioteca.dll
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\bin\Release\net461\Biblioteca.pdb
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\bin\Release\net461\Biblioteca.xml
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.csprojAssemblyReference.cache
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.Properties.Resources.resources
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.csproj.GenerateResource.cache
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.AssemblyInfoInputs.cache
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.AssemblyInfo.cs
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.csproj.CoreCompileInputs.cache
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.csproj.CopyComplete
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.dll
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities\obj\Release\net461\Biblioteca.Activities.pdb
