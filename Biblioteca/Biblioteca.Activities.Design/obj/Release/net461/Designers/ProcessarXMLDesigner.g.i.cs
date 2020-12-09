@@ -57,7 +57,7 @@ namespace Biblioteca.Activities.Design.Designers {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Biblioteca.Activities.Design;V1.0.1.0;component/designers/processarxmldesigner.x" +
+            System.Uri resourceLocater = new System.Uri("/Biblioteca.Activities.Design;V1.0.0.0;component/designers/processarxmldesigner.x" +
                     "aml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Designers\ProcessarXMLDesigner.xaml"
