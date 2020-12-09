@@ -92,14 +92,13 @@ namespace Biblioteca.Activities
                     {
                         line[element.Name.LocalName + xAttribute.Name.LocalName] = xAttribute.Value;
                     }
-                    else
-                    {
-                        //Console.WriteLine("Ignored attribute: " + xAttribute.Name.LocalName);
-                    }
                 }
                 else
                 {
-                    line[xAttribute.Name.LocalName] = xAttribute.Value;
+                    if (line.Table.Columns.Contains(xAttribute.Name.LocalName))
+                    {
+                        line[xAttribute.Name.LocalName] = xAttribute.Value;
+                    }
                 }
             }
 

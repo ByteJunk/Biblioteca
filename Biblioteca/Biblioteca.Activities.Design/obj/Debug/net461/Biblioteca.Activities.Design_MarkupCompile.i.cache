@@ -16,5 +16,5 @@ TRACE;DEBUG;NETFRAMEWORK;NET461;
 20-1440473282
 ..\..\Shared\Themes\Generic.xaml;Designers\ProcessarXMLDesigner.xaml;Themes\Icons.xaml;C:\Users\jpqor\source\repos\Biblioteca\Shared\UiPath.Shared.Activities.Design\Controls\ComboboxControl.xaml;C:\Users\jpqor\source\repos\Biblioteca\Shared\UiPath.Shared.Activities.Design\Controls\FilePathControl.xaml;C:\Users\jpqor\source\repos\Biblioteca\Shared\UiPath.Shared.Activities.Design\Controls\RestrictiveBodyConnector.xaml;C:\Users\jpqor\source\repos\Biblioteca\Shared\UiPath.Shared.Activities.Design\Editors\EditorTemplates.xaml;
 
-False
+True
 
