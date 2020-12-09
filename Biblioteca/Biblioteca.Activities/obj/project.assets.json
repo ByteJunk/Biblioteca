@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.6.1": {
-      "Biblioteca/1.0.0": {
+      "Biblioteca/1.0.1": {
         "type": "project",
         "framework": ".NETFramework,Version=v4.6.1",
         "compile": {
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "Biblioteca/1.0.0": {
+    "Biblioteca/1.0.1": {
       "type": "project",
       "path": "../Biblioteca/Biblioteca.csproj",
       "msbuildProject": "../Biblioteca/Biblioteca.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.1": [
-      "Biblioteca >= 1.0.0"
+      "Biblioteca >= 1.0.1"
     ]
   },
   "packageFolders": {

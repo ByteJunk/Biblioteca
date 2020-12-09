@@ -24,15 +24,15 @@ namespace Biblioteca.Activities
         [LocalizedDescription(nameof(Resources.ContinueOnError_Description))]
         public override InArgument<bool> ContinueOnError { get; set; }
 
-        [LocalizedDisplayName(nameof(Resources.ProcessarXML_XElement_DisplayName))]
-        [LocalizedDescription(nameof(Resources.ProcessarXML_XElement_Description))]
+        [LocalizedDisplayName(nameof(Resources.ProcessarXML_XElemento_DisplayName))]
+        [LocalizedDescription(nameof(Resources.ProcessarXML_XElemento_Description))]
         [LocalizedCategory(nameof(Resources.Input_Category))]
-        public InArgument<XElement> XElement { get; set; }
+        public InArgument<XElement> XElemento { get; set; }
 
-        [LocalizedDisplayName(nameof(Resources.ProcessarXML_DataRow_DisplayName))]
-        [LocalizedDescription(nameof(Resources.ProcessarXML_DataRow_Description))]
+        [LocalizedDisplayName(nameof(Resources.ProcessarXML_Linha_DisplayName))]
+        [LocalizedDescription(nameof(Resources.ProcessarXML_Linha_Description))]
         [LocalizedCategory(nameof(Resources.Input_Category))]
-        public InOutArgument<DataRow> DataRow { get; set; }
+        public InOutArgument<DataRow> Linha { get; set; }
 
         [LocalizedDisplayName(nameof(Resources.ProcessarXML_EvitarColisaoNomes_DisplayName))]
         [LocalizedDescription(nameof(Resources.ProcessarXML_EvitarColisaoNomes_Description))]
@@ -55,8 +55,8 @@ namespace Biblioteca.Activities
 
         protected override void CacheMetadata(CodeActivityMetadata metadata)
         {
-            if (XElement == null) metadata.AddValidationError(string.Format(Resources.ValidationValue_Error, nameof(XElement)));
-            if (DataRow == null) metadata.AddValidationError(string.Format(Resources.ValidationValue_Error, nameof(DataRow)));
+            if (XElemento == null) metadata.AddValidationError(string.Format(Resources.ValidationValue_Error, nameof(XElemento)));
+            if (Linha == null) metadata.AddValidationError(string.Format(Resources.ValidationValue_Error, nameof(Linha)));
             if (EvitarColisaoNomes == null) metadata.AddValidationError(string.Format(Resources.ValidationValue_Error, nameof(EvitarColisaoNomes)));
 
             base.CacheMetadata(metadata);
@@ -65,16 +65,16 @@ namespace Biblioteca.Activities
         protected override async Task<Action<AsyncCodeActivityContext>> ExecuteAsync(AsyncCodeActivityContext context, CancellationToken cancellationToken)
         {
             // Inputs
-            var xelement = XElement.Get(context);
-            var datarow = DataRow.Get(context);
+            var xelement = XElemento.Get(context);
+            var datarow = Linha.Get(context);
             var evitarcolisaonomes = EvitarColisaoNomes.Get(context);
 
-            datarow = IterateValues(xelement, datarow, evitarcolisaonomes);
+            var novalinha = IterateValues(xelement, datarow, evitarcolisaonomes);
 
             // Outputs
             return (ctx) =>
             {
-                DataRow.Set(ctx, datarow);
+                Linha.Set(ctx, novalinha);
             };
         }
         private DataRow IterateValues(XElement element, DataRow line, bool avoidnamecollision)

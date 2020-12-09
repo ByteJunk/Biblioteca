@@ -1,0 +1,11 @@
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net461\Biblioteca.dll
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net461\Biblioteca.pdb
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\bin\Debug\net461\Biblioteca.xml
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net461\Biblioteca.csprojAssemblyReference.cache
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net461\Biblioteca.Properties.Resources.resources
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net461\Biblioteca.csproj.GenerateResource.cache
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net461\Biblioteca.AssemblyInfoInputs.cache
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net461\Biblioteca.AssemblyInfo.cs
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net461\Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net461\Biblioteca.dll
+C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca\obj\Debug\net461\Biblioteca.pdb

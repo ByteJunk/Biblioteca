@@ -33,19 +33,19 @@
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
 
-            <Label Content="{x:Static activity:Resources.ProcessarXML_XElement_DisplayName}" Grid.Row="0"
-                   ToolTip="{x:Static activity:Resources.ProcessarXML_XElement_Description}"/>
-            <sapv:ExpressionTextBox Grid.Row="1" ExpressionType="{Binding ModelItem.Properties[XElement].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ProcessarXML_XElement_Description}" UseLocationExpression="False">
+            <Label Content="{x:Static activity:Resources.ProcessarXML_XElemento_DisplayName}" Grid.Row="0"
+                   ToolTip="{x:Static activity:Resources.ProcessarXML_XElemento_Description}"/>
+            <sapv:ExpressionTextBox Grid.Row="1" ExpressionType="{Binding ModelItem.Properties[XElemento].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ProcessarXML_XElemento_Description}" UseLocationExpression="False">
                 <sapv:ExpressionTextBox.Expression>
-                    <Binding Path="ModelItem.XElement" Converter="{StaticResource ArgumentToExpressionConverter}" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
+                    <Binding Path="ModelItem.XElemento" Converter="{StaticResource ArgumentToExpressionConverter}" Mode="TwoWay" ConverterParameter="In" UpdateSourceTrigger="PropertyChanged" />
                 </sapv:ExpressionTextBox.Expression>
             </sapv:ExpressionTextBox>
 
-            <Label Content="{x:Static activity:Resources.ProcessarXML_DataRow_DisplayName}" Grid.Row="2"
-                   ToolTip="{x:Static activity:Resources.ProcessarXML_DataRow_Description}"/>
-            <sapv:ExpressionTextBox Grid.Row="3" ExpressionType="{Binding ModelItem.Properties[DataRow].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ProcessarXML_DataRow_Description}" UseLocationExpression="True">
+            <Label Content="{x:Static activity:Resources.ProcessarXML_Linha_DisplayName}" Grid.Row="2"
+                   ToolTip="{x:Static activity:Resources.ProcessarXML_Linha_Description}"/>
+            <sapv:ExpressionTextBox Grid.Row="3" ExpressionType="{Binding ModelItem.Properties[Linha].PropertyType.GenericTypeArguments[0]}" OwnerActivity="{Binding Path=ModelItem}" HintText="{x:Static activity:Resources.ProcessarXML_Linha_Description}" UseLocationExpression="True">
                 <sapv:ExpressionTextBox.Expression>
-                    <Binding Path="ModelItem.DataRow" Converter="{StaticResource ArgumentToExpressionConverter}" Mode="TwoWay" ConverterParameter="InOut" UpdateSourceTrigger="PropertyChanged" />
+                    <Binding Path="ModelItem.Linha" Converter="{StaticResource ArgumentToExpressionConverter}" Mode="TwoWay" ConverterParameter="InOut" UpdateSourceTrigger="PropertyChanged" />
                 </sapv:ExpressionTextBox.Expression>
             </sapv:ExpressionTextBox>
 

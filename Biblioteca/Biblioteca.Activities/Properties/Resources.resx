@@ -149,10 +149,6 @@
     <value>Authentication</value>
     <comment>category</comment>
   </data>
-  <data name="Common_Category" xml:space="preserve">
-    <value>Common</value>
-    <comment>category</comment>
-  </data>
   <data name="Input_Category" xml:space="preserve">
     <value>Input</value>
     <comment>category</comment>
@@ -189,29 +185,21 @@
     <value>Itera e guarda todos os elementos e propriedades de um XML que constem da DataRow fornecida</value>
     <comment>activity description</comment>
   </data>
-  <data name="ProcessarXML_XElement_DisplayName" xml:space="preserve">
+  <data name="ProcessarXML_XElemento_DisplayName" xml:space="preserve">
     <value>xElement</value>
     <comment>property name</comment>
   </data>
-  <data name="ProcessarXML_XElement_Description" xml:space="preserve">
-    <value>O xElement com o XML a processar</value>
+  <data name="ProcessarXML_XElemento_Description" xml:space="preserve">
+    <value>O &lt;xElement&gt; com o XML a processar</value>
     <comment>property description</comment>
   </data>
-  <data name="Input_Category" xml:space="preserve">
-    <value>Input</value>
-    <comment>category</comment>
-  </data>
-  <data name="ProcessarXML_DataRow_DisplayName" xml:space="preserve">
+  <data name="ProcessarXML_Linha_DisplayName" xml:space="preserve">
     <value>dataRow</value>
     <comment>property name</comment>
   </data>
-  <data name="ProcessarXML_DataRow_Description" xml:space="preserve">
+  <data name="ProcessarXML_Linha_Description" xml:space="preserve">
     <value>Linha de uma DataTable em que as colunas correspondem aos atributos de XML a obter</value>
     <comment>property description</comment>
-  </data>
-  <data name="Input_Category" xml:space="preserve">
-    <value>Input</value>
-    <comment>category</comment>
   </data>
   <data name="ProcessarXML_EvitarColisaoNomes_DisplayName" xml:space="preserve">
     <value>evitarColisaoNomes</value>
@@ -220,9 +208,5 @@
   <data name="ProcessarXML_EvitarColisaoNomes_Description" xml:space="preserve">
     <value>Se 'True', adiciona o nome do elemento-pai ao atributo, de forma a evitar colisão entre subelementos com o mesmo nome mas hierarquias distintas</value>
     <comment>property description</comment>
-  </data>
-  <data name="Input_Category" xml:space="preserve">
-    <value>Input</value>
-    <comment>category</comment>
   </data>
 </root>

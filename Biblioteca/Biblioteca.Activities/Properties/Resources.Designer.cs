@@ -133,24 +133,6 @@ namespace Biblioteca.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Linha de uma DataTable em que as colunas correspondem aos atributos de XML a obter.
-        /// </summary>
-        public static string ProcessarXML_DataRow_Description {
-            get {
-                return ResourceManager.GetString("ProcessarXML_DataRow_Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to dataRow.
-        /// </summary>
-        public static string ProcessarXML_DataRow_DisplayName {
-            get {
-                return ResourceManager.GetString("ProcessarXML_DataRow_DisplayName", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Itera e guarda todos os elementos e propriedades de um XML que constem da DataRow fornecida.
         /// </summary>
         public static string ProcessarXML_Description {
@@ -187,20 +169,38 @@ namespace Biblioteca.Activities.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to O xElement com o XML a processar.
+        ///   Looks up a localized string similar to Linha de uma DataTable em que as colunas correspondem aos atributos de XML a obter.
         /// </summary>
-        public static string ProcessarXML_XElement_Description {
+        public static string ProcessarXML_Linha_Description {
             get {
-                return ResourceManager.GetString("ProcessarXML_XElement_Description", resourceCulture);
+                return ResourceManager.GetString("ProcessarXML_Linha_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to dataRow.
+        /// </summary>
+        public static string ProcessarXML_Linha_DisplayName {
+            get {
+                return ResourceManager.GetString("ProcessarXML_Linha_DisplayName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to O &lt;xElement&gt; com o XML a processar.
+        /// </summary>
+        public static string ProcessarXML_XElemento_Description {
+            get {
+                return ResourceManager.GetString("ProcessarXML_XElemento_Description", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to xElement.
         /// </summary>
-        public static string ProcessarXML_XElement_DisplayName {
+        public static string ProcessarXML_XElemento_DisplayName {
             get {
-                return ResourceManager.GetString("ProcessarXML_XElement_DisplayName", resourceCulture);
+                return ResourceManager.GetString("ProcessarXML_XElemento_DisplayName", resourceCulture);
             }
         }
         

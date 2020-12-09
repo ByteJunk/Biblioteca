@@ -67,7 +67,7 @@ namespace UiPath.Shared.Activities.Design.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Biblioteca.Activities.Design;V1.0.0.0;component/controls/restrictivebodyconnecto" +
+            System.Uri resourceLocater = new System.Uri("/Biblioteca.Activities.Design;V1.0.1.0;component/controls/restrictivebodyconnecto" +
                     "r.xaml", System.UriKind.Relative);
             
             #line 1 "RestrictiveBodyConnector.xaml"

@@ -54,7 +54,7 @@ namespace UiPath.Shared.Activities.Design.Editors {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Biblioteca.Activities.Design;V1.0.0.0;component/editors/editortemplates.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Biblioteca.Activities.Design;V1.0.1.0;component/editors/editortemplates.xaml", System.UriKind.Relative);
             
             #line 1 "EditorTemplates.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -19,7 +19,6 @@ namespace Biblioteca.Activities.Design
             builder.AddCustomAttributes(typeof(ProcessarXML), new DesignerAttribute(typeof(ProcessarXMLDesigner)));
             builder.AddCustomAttributes(typeof(ProcessarXML), new HelpKeywordAttribute(""));
 
-
             MetadataStore.AddAttributeTable(builder.CreateTable());
         }
     }

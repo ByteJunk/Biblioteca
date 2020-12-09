@@ -65,16 +65,6 @@
               Looks up a localized string similar to Output.
             </summary>
         </member>
-        <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_DataRow_Description">
-            <summary>
-              Looks up a localized string similar to Linha de uma DataTable em que as colunas correspondem aos atributos de XML a obter.
-            </summary>
-        </member>
-        <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_DataRow_DisplayName">
-            <summary>
-              Looks up a localized string similar to dataRow.
-            </summary>
-        </member>
         <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_Description">
             <summary>
               Looks up a localized string similar to Itera e guarda todos os elementos e propriedades de um XML que constem da DataRow fornecida.
@@ -95,12 +85,22 @@
               Looks up a localized string similar to evitarColisaoNomes.
             </summary>
         </member>
-        <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_XElement_Description">
+        <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_Linha_Description">
             <summary>
-              Looks up a localized string similar to O xElement com o XML a processar.
+              Looks up a localized string similar to Linha de uma DataTable em que as colunas correspondem aos atributos de XML a obter.
             </summary>
         </member>
-        <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_XElement_DisplayName">
+        <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_Linha_DisplayName">
+            <summary>
+              Looks up a localized string similar to dataRow.
+            </summary>
+        </member>
+        <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_XElemento_Description">
+            <summary>
+              Looks up a localized string similar to O &lt;xElement&gt; com o XML a processar.
+            </summary>
+        </member>
+        <member name="P:Biblioteca.Activities.Properties.Resources.ProcessarXML_XElemento_DisplayName">
             <summary>
               Looks up a localized string similar to xElement.
             </summary>

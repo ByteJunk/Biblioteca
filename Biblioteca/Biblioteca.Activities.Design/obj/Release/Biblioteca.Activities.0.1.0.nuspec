@@ -9,7 +9,7 @@
     <licenseUrl>https://licenses.nuget.org/Apache-2.0</licenseUrl>
     <projectUrl>https://docs.uipath.com/integrations/docs/how-to-create-activities</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/NuGet/Samples/master/PackageIconNuspecExample/icon.png</iconUrl>
-    <description>Utilitário para processar recursivamente as respostas XML de serviços SOAP.</description>
+    <description>Biblioteca de utilitários para processar recursivamente as respostas XML de serviços SOAP.</description>
     <copyright>© 2020 João Ornelas</copyright>
     <tags>UiPath Activit𝗒</tags>
     <dependencies>

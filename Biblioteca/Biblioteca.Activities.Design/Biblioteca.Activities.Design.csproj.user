@@ -3,6 +3,7 @@
   <PropertyGroup>
     <_LastSelectedProfileId>C:\Users\jpqor\source\repos\Biblioteca\Biblioteca\Biblioteca.Activities.Design\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
+  <ItemGroup />
   <ItemGroup>
     <Page Update="Designers\ProcessarXMLDesigner.xaml">
       <SubType>Designer</SubType>
